@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="card">
+    <!-- Local Downloaded Image -->
+    <img src="image/headphone.webp" alt="Wireless Headphones">
+
+    <div class="card-content">
+        <h2 id="productName">Wireless Headphones</h2>
+
+        <div class="price">
+            <span class="old-price">$120</span>
+            <span class="new-price" id="price">$90</span>
+            <span class="badge">25% OFF</span>
+        </div>
+
+        <p>High quality wireless headphones with noise cancellation and long battery life.</p>
+
+        <div class="quantity">
+            <button id="decrease">-</button>
+            <span id="qty">1</span>
+            <button id="increase">+</button>
+        </div>
+
+        <button class="add-cart" id="addCart">Add to Cart</button>
+
+        <p class="success" id="successMsg">Item added to cart successfully!</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
